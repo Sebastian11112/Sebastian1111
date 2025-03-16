@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <div class="room">
+        <h2>Iniciar Sesión</h2>
+        <form id="loginForm">
+            <label for="grupo">Número del Grupo:</label>
+            <input type="text" id="grupo" name="grupo" required>
+            
+            <label for="integrantes">Nombres de los Integrantes:</label>
+            <textarea id="integrantes" name="integrantes" required></textarea>
+            
+            <label for="cantidad">Cantidad de Integrantes:</label>
+            <input type="number" id="cantidad" name="cantidad" required>
+            
+            <label for="clave">Clave:</label>
+            <input type="password" id="clave" name="clave" required>
+            
+            <button type="submit" class="boton">Entrar</button>
+        </form>
+    </div>
+    <script src="../assets/js/login.js"></script>
+</body>
+</html>
