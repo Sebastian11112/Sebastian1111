@@ -31,7 +31,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const cantidad = document.getElementById('cantidad').value;
     const clave = document.getElementById('clave').value;
     
-    const claveCorrecta = "miClaveSecreta"; // Define aquí la clave correcta
+    const claveCorrecta = "Torre de babel Podcast"; // Define aquí la clave correcta
 
     if (clave === claveCorrecta) {
         localStorage.setItem('grupo', grupo);

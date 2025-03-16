@@ -20,12 +20,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function verificarRespuesta(nivel) {
     const respuestasCorrectas = {
-        1: "La calidad del software es el grado en que un sistema, componente o proceso cumple con los requisitos especificados y las expectativas del cliente.",
-        2: "Algunas métricas comunes de calidad del software incluyen la cobertura de pruebas, la densidad de defectos, el tiempo medio de resolución de defectos y la satisfacción del cliente.",
-        3: "La IA puede mejorar la calidad del software mediante la automatización de pruebas, la detección de defectos, la predicción de fallos y la optimización del rendimiento.",
-        4: "Los métodos para evaluar la calidad del software incluyen revisiones de código, pruebas unitarias, pruebas de integración, pruebas de sistema y pruebas de aceptación.",
-        5: "Algunas herramientas utilizadas para asegurar la calidad del software son JIRA, Selenium, JUnit, SonarQube y Jenkins.",
-        6: "Las tendencias futuras en la calidad del software incluyen el uso de la IA para pruebas automatizadas, la integración continua y la entrega continua, y el enfoque en la experiencia del usuario."
+        1: "componente o proceso cumple con los requisitos especificados y las expectativas del cliente.",
+        2: "la cobertura de pruebas, la densidad de defectos, el tiempo medio de resolución de defectos y la satisfacción del cliente.",
+        3: "la automatización de pruebas, la detección de defectos, la predicción de fallos y la optimización del rendimiento.",
+        4: "revisiones de código, pruebas unitarias, pruebas de integración, pruebas de sistema y pruebas de aceptación.",
+        5: "JIRA, Selenium, JUnit, SonarQube y Jenkins.",
+        6: "IA para pruebas automatizadas, la integración continua y la entrega continua, y el enfoque en la experiencia del usuario."
     };
 
     const respuestaUsuario = document.getElementById(`respuesta${nivel}`).value.trim();
